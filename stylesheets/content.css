@@ -116,7 +116,7 @@ p {
     color: black;
     font-weight: normal;
     transform: rotate(90deg);
-    margin-top: -240px;
+    margin-top: -280px;
     margin-left: 790px;
 }
 .Stitle {
@@ -126,7 +126,7 @@ p {
     font-family: Fantasque Sans Mono;
     font-weight: bold;
     color: #262626;
-    margin-top: 400px;
+    margin-top: 200px;
 }
 .phone {
     margin-top: -180px;
