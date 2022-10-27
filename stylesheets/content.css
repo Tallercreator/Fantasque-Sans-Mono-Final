@@ -1,0 +1,565 @@
+@font-face {
+    font-family: 'Fantasque Sans Mono';
+    src: local('Fantasque Sans Mono Regular'), local('FantasqueSansMono-Regular');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Fantasque Sans Mono';
+    src: local('Fantasque Sans Mono Italic'), local('FantasqueSansMono-Italic');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Fantasque Sans Mono';
+    src: local('Fantasque Sans Mono Bold'), local('FantasqueSansMono-Bold');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Fantasque Sans Mono';
+    src: local('Fantasque Sans Mono Bold Italic'), local('FantasqueSansMono-BoldItalic');
+    font-weight: 700;
+    font-style: italic;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.Plashki {
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+}
+.plash1 {
+    width: 214px;
+    height: 73px;
+    background-color: #31CA3E;
+    border-radius: 100px;
+    border: 2px solid black;
+}
+
+.Mono{
+    font-size: 24px;
+    font-family: Fantasque Sans Mono;
+    font-style: normal;
+    color: #262626;
+    display: flex;
+    justify-content: center;
+    padding: 24px 24px;
+    margin: 0;
+}
+
+.plash2 {
+    width: 238px;
+    height: 73px;
+    background-color: #A81AFF;
+    border-radius: 100px;
+    border: 2px solid black;
+}
+.Zag{
+    font-size: 24px;
+    font-family: Fantasque Sans Mono;
+    font-style: normal;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding: 24px 24px;
+    margin: 0;
+}
+.ft {
+    padding: 20px;
+}
+
+p {
+    font-style: normal;
+    font-family: Fantasque Sans Mono;
+    font-size: 20px;
+    color: #262626;
+    padding: 20px;
+}
+.From {
+    display: flex;
+
+}
+.comic {
+    margin-top: -1px;
+    font-weight: bold;
+    color: #BA5CF3;
+    font-size: 64px;
+}
+.Sans {
+    margin-top: -100px;
+    font-size: 32px;
+}
+.vector{
+    margin-left: 800px;
+    position: relative;
+    margin-top: 420px;
+}
+.arrow {
+    margin-left: 600px;
+    margin-top: -250px;
+}
+.line {
+    display: flex;
+    width: 900px;
+    border: 1px solid black;
+    transform: rotate(90deg);
+    background-color: black;
+    margin-left: 500px;
+    margin-top: -610px;
+}
+.authorr{
+    font-size: 40px;
+    font-family: Fantasque Sans Mono;
+    color: black;
+    font-weight: normal;
+    transform: rotate(90deg);
+    margin-top: -240px;
+    margin-left: 790px;
+}
+.Stitle {
+    display: flex;
+    font-size: 80px;
+    padding: 20px;
+    font-family: Fantasque Sans Mono;
+    font-weight: bold;
+    color: #262626;
+    margin-top: 400px;
+}
+.phone {
+    margin-top: -180px;
+    margin-left: 520px;
+}
+
+.smile1 {
+    display: flex;
+    margin-left: 920px;
+    margin-top: -200px;
+    position: relative;
+    z-index: 1;
+}
+.line2 {
+    width: 900px;
+    border: 1px solid black;
+    transform: rotate(90deg);
+    background-color: black;
+    margin-left: 500px;
+    margin-top: -265px;
+}
+.History{
+    position: relative;
+    margin-left: 20px;
+    padding: 20px;
+    width: 388px;
+    height: 239px;
+    background-color: #A81AFF;
+    margin-top: -250px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+.istoria{
+    margin-top: -10px;
+    font-size: 64px;
+    font-weight: bold;
+    color: white;
+}
+.istoriamin {
+    font-size: 24px;
+    margin-top: -80px;
+    line-height: 29px;
+    color: white;
+}
+.vector1 {
+    margin-left: -200px;
+    transform: rotate(143deg);
+    margin-top: -200px;
+}
+.Ttitle {
+    display: flex;
+    font-size: 80px;
+    padding: 20px;
+    margin-top: 100px;
+    font-family: Fantasque Sans Mono;
+    font-weight: bold;
+    color: #262626;
+}
+.Development {
+    margin-top: 24px;
+    margin-left: 20px;
+    padding: 32px;
+    width: 780px;
+    height: 66px;
+    background-color: #31CA3E;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+.dev {
+    margin-top: -16px;
+    font-size: 23px;
+    line-height: 130%;
+}
+.rectangle {
+    justify-content: center;
+    width: 100%;
+    height: 314px;
+    background-color: #262626;
+    margin-top: 40px;
+}
+
+.code1 {
+    margin-top: -20px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 16px;
+    color: white;
+}
+.line3 {
+    width: 900px;
+    border: 1px solid black;
+    transform: rotate(90deg);
+    background-color: black;
+    margin-left: 500px;
+    margin-top: -765px;
+}
+.olympics {
+    margin-top: 700px;
+    padding: 20px;
+}
+.line4 {
+    width: 900px;
+    border: 1px solid black;
+    transform: rotate(90deg);
+    background-color: black;
+    margin-left: 500px;
+    margin-top: -125px;
+}
+.smile2 {
+    display: flex;
+    margin-left: 920px;
+    margin-top: -250px;
+    position: relative;
+    z-index: 1;
+}
+.Plashki2 {
+    align-items: center;
+    margin-top: 300px;
+    padding: 20px;
+    display: flex;
+    gap: 120px;
+}
+.plash3 {
+    width: 214px;
+    height: 73px;
+    background-color: #FFF956;
+    border-radius: 100px;
+    border: 2px solid black;
+}
+
+.Fnach{
+    font-size: 24px;
+    font-family: Fantasque Sans Mono;
+    font-style: normal;
+    color: #262626;
+    display: flex;
+    justify-content: center;
+    padding: 24px 24px;
+    margin: 0;
+}
+
+.plash4 {
+    width: 238px;
+    height: 73px;
+    background-color: #8EDFFF;
+    border-radius: 100px;
+    border: 2px solid black;
+}
+.Lang{
+    font-size: 24px;
+    font-family: Fantasque Sans Mono;
+    font-style: normal;
+    color: #262626;
+    display: flex;
+    justify-content: center;
+    padding: 24px 24px;
+    margin: 0;
+}
+.nach {
+    padding: 20px;
+    display: flex;
+}
+.bol{
+    margin-left: 150px;
+}
+.it {
+    margin-left: 150px;
+}
+.itb {
+    margin-left: 120px;
+}
+.a4 {
+    margin-left: 40px;
+  }
+.y4 {
+    margin-left: 40px;
+    margin-top: 80px;
+}
+.smile3 {
+    display: flex;
+    margin-left: 920px;
+    margin-top: -280px;
+    position: relative;
+    z-index: 1;
+}
+.line5 {
+    width: 900px;
+    border: 1px solid black;
+    transform: rotate(90deg);
+    background-color: black;
+    margin-left: 500px;
+    margin-top: -10px;
+
+}
+.rect1 {
+    margin-top: 250px;
+    width: 880px;
+    height: 700px;
+    background-color: #A81AFF;
+    border-radius: 32px;
+    border: 2px solid black;
+    margin-left: 20px;
+}
+.biga {
+    margin-top: 60px;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    gap: 50px;
+}
+.alphabet {
+    margin-left: 70px;
+    padding: 20px;
+}
+.line6 {
+    width: 900px;
+    border: 1px solid black;
+    transform: rotate(90deg);
+    background-color: black;
+    margin-left: 500px;
+}
+.smile4 {
+    display: flex;
+    margin-left: 920px;
+    margin-top: -470px;
+    position: relative;
+    z-index: 1;
+}
+.rect2 {
+    margin-top: 300px;
+    width: 880px;
+    height: 730px;
+    background-color: #31CA3E;
+    border-radius: 32px;
+    border: 2px solid black;
+    margin-left: 20px;
+}
+.ym{
+    padding: 80px 80px;
+}
+.line7 {
+    width: 900px;
+    border: 1px solid black;
+    transform: rotate(90deg);
+    background-color: black;
+    margin-left: 500px;
+}
+.Ftitle {
+    font-size: 80px;
+    margin-left: 20px;
+    margin-top: 80px;
+    font-family: Fantasque Sans Mono;
+    font-weight: bold;
+    color: #262626;
+}
+.glyph {
+    margin-left: -20px;
+    font-weight: normal;
+    margin-top: -5px;
+    font-size: 23px;
+    line-height: 130%;
+}
+.allrect{
+    display: flex;
+    margin-left: 20px;
+    gap: 10px;
+}
+.rectY{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 210px;
+    height: 350px;
+    background-color: #FFF956;
+    border: 2px solid black;
+    border-radius: 32px;
+}
+.rectB{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 210px;
+    height: 350px;
+    background-color: #6DD5FF;
+    border: 2px solid black;
+    border-radius: 32px;
+}
+.rectP{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 210px;
+    height: 350px;
+    background-color: #A81AFF;
+    border: 2px solid black;
+    border-radius: 32px;
+}
+.rectG{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 210px;
+    height: 350px;
+    background-color: #31CA3E;
+    border: 2px solid black;
+    border-radius: 32px;
+}
+.allrect2{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 20px;
+    gap: 10px;
+}
+.line8 {
+    width: 900px;
+    border: 1px solid black;
+    transform: rotate(90deg);
+    background-color: black;
+    margin-left: 500px;
+    margin-top: -90px;
+}
+.smile5 {
+    display: flex;
+    margin-left: 920px;
+    margin-top: -350px;
+    position: relative;
+    z-index: 1;
+}
+.Fftitle {
+    display: flex;
+    font-size: 80px;
+    padding: 20px;
+    margin-top: 380px;
+    font-family: "Fantasque Sans Mono";
+    font-weight: bold;
+    color: #262626;
+}
+.twomems{
+    margin-left: 20px;
+    display: flex;
+    gap: 60px;
+    margin-top: 20px;
+}
+.uzb {
+    width: 410px;
+    height: 390px;
+    background-color: #A81AFF;
+    border-radius: 32px;
+    border: 2px solid black;
+}
+.spanch {
+    width: 410px;
+    height: 390px;
+    background-color: #FFED00;
+    border-radius: 32px;
+    border: 2px solid black;
+}
+.spb {
+    margin-top: 15px;
+    font-size: 32px;
+    color: #262626;
+    font-weight: bold;
+    text-align: center;
+}
+.spbl {
+    margin-top: -50px;
+    font-size: 24px;
+    color: #262626;
+    font-weight: bold;
+    text-align: center;
+}
+.SpanchBobik {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+}
+.uz {
+    margin-top: 15px;
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.uzl {
+    margin-top: -50px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.Uzbagoisya {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+}
+.line9 {
+    width: 900px;
+    border: 1px solid black;
+    transform: rotate(90deg);
+    background-color: black;
+    margin-left: 500px;
+    margin-top: -400px;
+}
+.legmem{
+    margin-left: 200px;
+}
+footer {
+    margin-top: 450px;
+    background-color: #262626;
+    height: 130px;
+    align-content: flex-end;
+}
+.textfoot{
+    display: flex;
+    align-items: end;
+    align-content: flex-end;
+    justify-content: space-between;
+    vertical-align: baseline;
+}
+.left {
+    color: #494949;
+    text-align: left;
+}
+.middle {
+    color: #494949;
+    text-align: center;
+}
+.right {
+    color: #494949;
+    text-align: right;
+}
+a {
+    text-decoration: none;
+}
